@@ -1,0 +1,6 @@
+a = int(input("Чотиризначне число:  "))
+a = str(a)
+summa=int(a[1])+int(a[2])
+dob = int(a[1])*int(a[2])
+print(f"{dob} - добуток")
+print(f"{summa} - сумма ")
